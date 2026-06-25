@@ -1,0 +1,18 @@
+{
+  "appId": "com.danemadsen.maid",
+  "productName": "Maid",
+  "directories": {
+    "output": "release"
+  },
+  "win": {
+    "target": "nsis"
+  },
+  "extraMetadata": {
+    "main": "main.js"
+  },
+  "files": [
+    "dist/**/*",
+    "main.js",
+    "package.json"
+  ]
+}
